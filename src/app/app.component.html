@@ -1,34 +1,5 @@
-<!-- <div class="card-container" *ngIf="covidData && covidData.length > 0">
-  <div *ngFor="let data of covidData">
-
-    <span>{{data.statewise}}</span>
-  </div>
-</div> -->
-
-<h1 style="display: flex;justify-content: space-around;background-color: antiquewhite;">Covid Data Update</h1>
-
-<div class="list-data">
-  <div class="scroll-container">
-      <div class="card-data" style="display: flex; flex-wrap: wrap;justify-content: space-around; padding: 17px;box-sizing: border-box;position: relative;">
-          <mat-card *ngFor="let item of covidData" class="example-card"   >
-              <span>State : {{item.state}}</span>
-              <span>Active : {{item.active}}</span>
-              <span>Conformed : {{item.confirmed}}</span>
-              <span>Deaths : {{item.deaths}}</span>
-              <span>Update Time : {{item.lastupdatedtime}}</span>
-          </mat-card>
-      </div>
-  </div>
-</div>
+<h1 style="display: flex;
+justify-content: space-around;
+background-color: antiquewhite;">Covid Data Update</h1>
 
 <app-table></app-table>
-
-<div>               
-  <table >
-    
-    <tr></tr>
-    <tr></tr>
-    <tr></tr>           
-    <tr></tr>
-  </table>
-</div>
