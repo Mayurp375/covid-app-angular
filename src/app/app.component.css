@@ -1,0 +1,11 @@
+.example-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    padding: 50px;
+
+}
+mat-card {
+    width: 300px;
+}
